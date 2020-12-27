@@ -30,7 +30,7 @@ final class With_Fields extends Setting_Component {
 
     /** Constructor */
     public function __construct() {
-        parent::__construct( 
+        parent::__construct(
             [
                 __CLASS__ => [
                     'page_title'    => __( 'Fields Demo', 'tws-core' ),
