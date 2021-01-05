@@ -67,7 +67,7 @@ final class Without_Fields extends Setting_Component {
                 'tab_title'     => __( 'Ready to Go?', 'tws-core' ), 
                 'desc'          => sprintf( '<div>%1$s</div><div><small><em>%2$s <code>templates/with-fields.php</code></em></small></div>',
                 __( 'This description is only visible when fields are set.', 'tws-core' ),
-                __( 'Enabling the switch below (actually it is a checkbox field type with style customization) will instantiate another child class on file', 'tws-core' ),
+                __( 'Enabling the switch below (actually it is a checkbox field type with style customization) will instantiate another child class on file', 'tws-core' )
             ), // only shows when "fields" are set.
                 'callback'      => function() { echo 'This is just a callback like other three section tabs in this page.'; },
                 'fields'        => [
